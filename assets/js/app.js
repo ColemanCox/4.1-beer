@@ -1,23 +1,13 @@
-
- var content = document.getElementById('beerData');
-
-
-var beers = [
-'Silver beet',
-'Wattle seed',
-'Kohibari bok',
-'Melon sierra',
-'Celery carrot',
-'Catsear'];
-};
-for (var x = 0; x < beers.length;i++){
-
-}
+(function() {
+  var beersEl = document.querySelector('.beers');
+   var templateString = document.querySelector('#beers-template').innerHTML;
 
 
-beers.forEach(function(beer) {
-  var beerString = "beers"
-}
-beersEl = document.querySelector("beers"){
-  return
-//}
+    var h = Handlebars.compile(templateString);
+
+    var result = beerData.data.results.forEach(function(beer) {
+      return (beers);
+     }, '');
+
+  beersEl.innerHTML = result;
+})();

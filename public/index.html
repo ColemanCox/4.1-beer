@@ -9,9 +9,16 @@
 </head>
 <body>
 
-  <div class = "beers">
-   {{beers}}
-    <ul>
+  <ul class = "beers"></ul>
+    <template id ="beers-template">
+    <li>
+          <span>{{ name }}</span>
+          <img src = "https://raw.githubusercontent.com/TIY-LR-FEE-2015-June/assignments/master/2.1-beer-layout/bottle-1.png" alt = "crap">
+          <p>{{ description }}</p>
+          </li>
+          </template>
+
+
       <li>
 
         <img src="https://github.com/TIY-LR-FEE-2015-June/assignments/blob/master/2.1-beer-layout/bottle-1.png?raw=true" alt="beer"></li>
