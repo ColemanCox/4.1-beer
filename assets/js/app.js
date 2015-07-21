@@ -5,8 +5,8 @@
 
     var h = Handlebars.compile(templateString);
 
-    var result = beerData.data.results.forEach(function(beer) {
-      return (beers);
+    var result = beersEl.data.results.reduce(function(beer) {
+      return h(beers);
      }, '');
 
   beersEl.innerHTML = result;
