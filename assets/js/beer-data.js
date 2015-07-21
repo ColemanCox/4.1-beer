@@ -1,4 +1,4 @@
-var beerData =
+dvar beerData =
 {
     "currentPage": 1,
     "numberOfPages": 603,
