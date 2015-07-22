@@ -14,17 +14,21 @@ html {
   box-sizing: inherit;
 }
 ul{
-    display:inline-grid;
+    display:block;
 
 }
-p{font-size:10px;
-    width:200px;
-   color:teal;
+.description{font-size:10px;
+   color:#4FABED;
    margin-left: 60%;
+
 }
 
-
-
+.display, .abv{
+    color:#4FABED;
+}
+.add{
+    float:right;
+}
 
 
 

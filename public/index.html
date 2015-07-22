@@ -10,19 +10,27 @@
 <body>
   <div class="actions">
     <button class="list-mode">
-      <i class="fa fa-list-ul"></i>
+      <i class="fa fa-list-ulth"></i>
     </button>
     <button class="grid-mode">
-      <i class="fa fa-"></i>
+      <i class="fa fa-th"></i>
     </button>
   </div>
   <ul class = "beers"></ul>
   <template id ="beers-template">
-    <li>
-      <span>{{ nameDisplay }}</span>
-      <img src = "https://raw.githubusercontent.com/TIY-LR-FEE-2015-June/assignments/master/2.1-beer-layout/bottle-1.png" alt = "">
-      <p>{{ description }}</p>
-       <span>{{ abv }}</span>
+  <li>
+     <img src = "https://raw.githubusercontent.com/TIY-LR-FEE-2015-June/assignments/master/2.1-beer-layout/bottle-1.png" alt = ""></li>
+  <li>
+    <span class = "display">{{ nameDisplay }}</span>
+  </li>
+
+  <li>
+     <span class = "description"> {{ description }}</li>
+      <li>
+         <span class ="abv" >{{ abv }}</span>
+       </li>
+       <li>
+         <button class = "add">Add to cart<button>
        </li>
   </template>
 

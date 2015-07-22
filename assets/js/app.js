@@ -17,3 +17,7 @@ gridModeEL.onClick = function() {
   alert('hey sucka');
 
 };
+var listModeEl = document.querySelector('.list-mode');
+
+listModeEL.onClick = function() {
+  alert('hey suckas');}
