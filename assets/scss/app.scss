@@ -8,10 +8,25 @@ $fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+ul{
+    display:inline-grid;
+
+}
+p{font-size:10px;
+    width:200px;
+   color:teal;
+   margin-left: 60%;
+}
+
+
+
+
+
 
 
 // Your SASS Journey Starts Here

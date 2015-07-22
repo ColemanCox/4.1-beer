@@ -8,20 +8,23 @@
     <title>Beer Redux</title>
 </head>
 <body>
-
+  <div class="actions">
+    <button class="list-mode">
+      <i class="fa fa-list-ul"></i>
+    </button>
+    <button class="grid-mode">
+      <i class="fa fa-"></i>
+    </button>
+  </div>
   <ul class = "beers"></ul>
-    <template id ="beers-template">
+  <template id ="beers-template">
     <li>
-          <span class = "name">{{ nameDisplay }}</span>
-          <img src = "https://raw.githubusercontent.com/TIY-LR-FEE-2015-June/assignments/master/2.1-beer-layout/bottle-1.png" alt = "">
-          <p>{{ description }}</p>
-           <span>{{ abv }}</span>
-           </li>
-
-           </template>
-
-
-
+      <span>{{ nameDisplay }}</span>
+      <img src = "https://raw.githubusercontent.com/TIY-LR-FEE-2015-June/assignments/master/2.1-beer-layout/bottle-1.png" alt = "">
+      <p>{{ description }}</p>
+       <span>{{ abv }}</span>
+       </li>
+  </template>
 
 <script src="beer-data.js"></script>
 <script src="handlebars/handlebars.js"></script>
