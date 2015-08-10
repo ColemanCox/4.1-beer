@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/cbotwell/3.3-clock#readme",
   "dependencies": {
-    "broccoli": "^0.16.4",
+    "broccoli": "https://registry.npmjs.org/broccoli/-/broccoli-0.16.4.tgz",
     "broccoli-funnel": "^0.2.3",
     "broccoli-inject-livereload": "^0.2.0",
-    "broccoli-merge-trees": "^0.2.1",
-    "broccoli-sass": "^0.6.6"
+    "broccoli-merge-trees": "https://registry.npmjs.org/broccoli-merge-trees/-/broccoli-merge-trees-0.2.1.tgz",
+    "broccoli-sass": "https://registry.npmjs.org/broccoli-sass/-/broccoli-sass-0.6.6.tgz"
   }
 }

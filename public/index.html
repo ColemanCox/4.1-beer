@@ -5,13 +5,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="app.css">
-    <title>Etsy</title>
+    <title>Beer Redux</title>
 </head>
 <body>
+  <div class="actions">
+    <button class="list-mode">
+      <i class="fa fa-list-ulth"></i>
+    </button>
+    <button class="grid-mode">
+      <i class="fa fa-th"></i>
+    </button>
+  </div>
+  <ul class = "beers"></ul>
+  <template id ="beers-template">
+  <li>
+     <img src = "https://raw.githubusercontent.com/TIY-LR-FEE-2015-June/assignments/master/2.1-beer-layout/bottle-1.png" alt = ""></li>
+  <li>
+    <span class = "display">{{ nameDisplay }}</span>
+  </li>
 
-<script src="jquery/dist/jquery.min.js"></script>
+  <li>
+     <span class = "description"> {{ description }}</li>
+      <li>
+         <span class ="abv" >{{ abv }}</span>
+       </li>
+       <li>
+         <button class = "add">Add to cart<button>
+       </li>
+  </template>
+
+<script src="beer-data.js"></script>
 <script src="handlebars/handlebars.js"></script>
-<script src="load-etsy.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
