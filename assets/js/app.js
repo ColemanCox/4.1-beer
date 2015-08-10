@@ -10,14 +10,19 @@
 
   beersEl.innerHTML = result;
 
-})();
+}
+
+)
+();
 var gridModeEl = document.querySelector('.grid-mode');
 
 gridModeEL.onClick = function() {
   alert('hey sucka');
 
 };
+
 var listModeEl = document.querySelector('.list-mode');
 
 listModeEL.onClick = function() {
-  alert('hey suckas');}
+  alert('hey suckas');
+};
